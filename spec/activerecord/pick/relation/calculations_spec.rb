@@ -35,21 +35,21 @@ RSpec.describe ActiveRecord::Calculations do
 
   describe "#pick" do
     context "when specified single column" do
-      it do
+      it "should return single value of specified coluimn" do
         expect(Account.order(:id).pick(:email)).to eq "account1@example.com"
       end
 
-      it do
+      it "should return nil" do
         expect(Account.where("0=1").pick(:email)).to be_nil
       end
     end
 
     context "when specified multiple columns" do
-      it do
+      it "should return multiple values of specified columns" do
         expect(Account.order(:id).pick(:name, :email)).to eq ["Account1", "account1@example.com"]
       end
 
-      it do
+      it "should return value" do
         expect(Account.where("0=1").pick(:name, :email)).to be_nil
       end
     end

@@ -4,6 +4,7 @@ Backport of `ActiveRecord::Calculations#pick` for Rails 5 and 4.2 applications.
 https://github.com/rails/rails/pull/31941
 
 [![Build Status](https://travis-ci.org/yujideveloper/activerecord-pick.svg?branch=master)](https://travis-ci.org/yujideveloper/activerecord-pick)
+[![Maintainability](https://api.codeclimate.com/v1/badges/69b57b07aa990b2b5965/maintainability)](https://codeclimate.com/github/yujideveloper/activerecord-pick/maintainability)
 
 ## Installation
 

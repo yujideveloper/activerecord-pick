@@ -1,4 +1,6 @@
-# coding: utf-8
+
+# frozen_string_literal: true
+
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "activerecord/pick/version"
@@ -9,8 +11,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Yuji Hanamura"]
   spec.email         = ["yuji.developer@gmail.com"]
 
-  spec.summary       = %q{This gem provides the functionality of ActiveRecord::Relation#pick for Rails 5 and 4.2 apps.}
-  spec.description   = %q{This gem provides the functionality of ActiveRecord::Relation#pick for Rails 5 and 4.2 apps.}
+  spec.summary       = "This gem provides the functionality of ActiveRecord::Relation#pick for Rails 5 and 4.2 apps."
+  spec.description   = "This gem provides the functionality of ActiveRecord::Relation#pick for Rails 5 and 4.2 apps."
   spec.homepage      = "https://github.com/yujideveloper/activerecord-pick"
   spec.license       = "MIT"
 

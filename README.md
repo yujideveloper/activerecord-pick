@@ -1,6 +1,6 @@
 # ActiveRecord::Pick
 
-Backport of `ActiveRecord::Calculations#pick` for Rails 5.0 and 4.2 applications.
+Backport of `ActiveRecord::Calculations#pick` for Rails 5 and 4.2 applications.
 https://github.com/rails/rails/pull/31941
 
 [![Build Status](https://travis-ci.org/yujideveloper/recite_csv.svg?branch=master)](https://travis-ci.org/yujideveloper/recite_csv)

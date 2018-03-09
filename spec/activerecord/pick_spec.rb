@@ -59,5 +59,11 @@ RSpec.describe ActiveRecord::Pick do
         expect(Account.where("0=1").pick(:name, :email)).to be_nil
       end
     end
+
+    describe "when called pick method of AR model" do
+      it "should delegate to all" do
+        expect(Account.pick(:name)).to eq "Account1"
+      end
+    end
   end
 end

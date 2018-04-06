@@ -8,6 +8,6 @@ gemfile:
   - gemfiles/activerecord_4.2.gemfile
   - gemfiles/activerecord_5.0.gemfile
   - gemfiles/activerecord_5.1.gemfile
-before_install: gem install bundler -v 1.14.6
+before_install: gem install bundler -v 1.16.1
 script:
   - bundle exec rake spec

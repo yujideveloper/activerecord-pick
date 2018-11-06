@@ -1,5 +1,8 @@
 ## Unreleased
 
+
+## 0.1.2 (2018-11-06)
+
 * Support Rails 5.2
 * Fix gem metadata
 

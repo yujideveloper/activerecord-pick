@@ -1,6 +1,6 @@
 # ActiveRecord::Pick
 
-Backport of `ActiveRecord::Calculations#pick` for Rails 5 and 4.2 applications.
+Backport of `ActiveRecord::Relation#pick` for Rails 5 and 4.2 applications.
 https://github.com/rails/rails/pull/31941
 
 [![Gem Version](https://badge.fury.io/rb/activerecord-pick.svg)](https://badge.fury.io/rb/activerecord-pick)

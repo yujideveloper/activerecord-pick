@@ -2,6 +2,7 @@
 
 require "bundler/setup"
 require "activerecord/pick"
+require "active_record"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

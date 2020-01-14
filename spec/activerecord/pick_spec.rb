@@ -41,7 +41,7 @@ RSpec.describe ActiveRecord::Pick do
     end
 
     context "when specified single column" do
-      it "should return single value of specified coluimn" do
+      it "should return single value of specified column" do
         expect(Account.order(:id).pick(:email)).to eq "account1@example.com"
       end
 

@@ -1,3 +1,7 @@
+*Rails 5.2 is no longer maintained since 2022-06-01. So, this gem is no longer maintained as well.*
+
+----
+
 # ActiveRecord::Pick
 
 Backport of `ActiveRecord::Relation#pick` for Rails 5 and 4.2 applications.
